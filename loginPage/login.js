@@ -5,7 +5,7 @@ const loginButton =document.getElementById('loginButton');
 
 loginButton.addEventListener('click', () => {
     if(UserInfo.value !== "" && UserPassword !== "") {
-        location.href = "./mainPage/main.html";
+        location.href = "../mainPage/main.html";
         localStorage.setItem("name" , UserInfo.value)
     }
     else {
